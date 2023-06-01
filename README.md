@@ -71,7 +71,6 @@ sudo docker-compose up -d --build
 ```
 2.Выполнить миграции:
 ```sh
-sudo docker-compose exec web python manage.py makemigrations
 sudo docker-compose exec web python manage.py migrate
 ```
 3.Выполнить сбор статических файлов:
